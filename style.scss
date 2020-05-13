@@ -1,0 +1,90 @@
+.fas , .far {
+    padding: 0 10px 10px 10px;
+}
+
+.carousel-inner , .carousel-item {
+    height: 100vh;
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .carousel-caption {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid;
+        border-color: white;
+        right: auto;
+        bottom: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bottom-section {
+    background: #eff2f5;
+    .btn {
+        max-width: 130px;
+        height: 43px;
+    }
+    .card {
+        background: #eff2f5;
+        border: none;
+    }
+    .news-bottom {
+        font-size: 10px;
+    }
+}
+
+.icons {
+    justify-content: center;
+    i {
+        font-size: 20px;
+        color: #000000;
+    }
+    div {
+        font-size: 0px;
+    }
+}
+
+.form-control {
+    text-align: center;
+}
+
+.view-more .card-body {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.view-more h4 {
+    color: white;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.product a {
+    padding: 1px 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    
+    .list-group-item {
+        text-align: left;
+    }
+    
+    .icons i {
+        font-size: 30px;
+        padding: 5px 20px 0 0;
+    }
+    
+}
